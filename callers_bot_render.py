@@ -28,7 +28,7 @@ BOT_TOKEN = '7286208044:AAE1Z2GoZNvLJp2G7BIM9MhrL_2hftAUll4'
 logging.basicConfig(level=logging.INFO)  # Set the logging level to INFO
 
 # Define the list of administrators
-administrators = [6364570277]  # Replace with actual admin user IDs
+administrators = [6364570277,5279072931]  # Replace with actual admin user IDs
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logging.info(f"Start command received from {update.effective_user.id}")  # Log when the start command is received
@@ -233,6 +233,7 @@ async def main() -> None:
     application.add_handler(CommandHandler("remove_call_group", remove_group))
     application.add_handler(CommandHandler("add_receive_group", add_receive_group))
     application.add_handler(CommandHandler("remove_receive_group", remove_receive_group))
+    application.add_handler(CommandHandler("start", start))
     
 
 
