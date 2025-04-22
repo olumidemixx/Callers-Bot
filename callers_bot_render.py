@@ -13,7 +13,7 @@ import sys
 LISTEN_GROUP_1 = -4738886886
 LISTEN_GROUP_2 = -4719726677
 list_of_listen_groups = [LISTEN_GROUP_1,LISTEN_GROUP_2]
-list_of_eligible_senders = [6364570277]
+list_of_eligible_senders = [6364570277,5279072931]
 FORWARD_GROUP_1 = -4630238263
 FORWARD_GROUP_2 = -4692625781
 list_of_receive_groups = [FORWARD_GROUP_1,FORWARD_GROUP_2]
