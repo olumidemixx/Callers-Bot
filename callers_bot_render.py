@@ -22,7 +22,7 @@ list_of_receive_groups += list_of_listen_groups
 solana_patterns = [r'[0-9A-HJ-NP-Za-km-z]{32,44}',r'\b[1-9A-HJ-NP-Za-km-z]{32,44}\b']
 ethereum_patterns = [r'0x[a-fA-F0-9]{40}', r'\b[a-fA-F0-9]{42}\b']
 message = ""
-BOT_TOKEN = '7944971005:AAFNmeBPLqc0CKwHau95K4ICvtlx2nNzjm8'
+BOT_TOKEN = '7286208044:AAE1Z2GoZNvLJp2G7BIM9MhrL_2hftAUll4'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)  # Set the logging level to INFO
