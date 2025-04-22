@@ -223,7 +223,7 @@ async def on_shutdown(web_app):
 
 async def main() -> None:
     global application
-    application = Application.builder().token('7944971005:AAFNmeBPLqc0CKwHau95K4ICvtlx2nNzjm8').build()
+    application = Application.builder().token(BOT_TOKEN).build()
 
     # Listen to messages from the specified groups
     application.add_handler(MessageHandler(filters.ChatType.GROUP, forward_message))
